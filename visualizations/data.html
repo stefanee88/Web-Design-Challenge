@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        Latitude
+        Data
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -49,7 +49,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="#">Latitude</a>
+        <a class="navbar-brand" href="/index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,63 +77,32 @@
             </ul>
         </div>
     </nav>
+     <!-- Need to figure out how to code the table -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <h1>Summary: Latitude vs X</h1>
-<hr>
-                <div class="square">
-                    <div>
-
-                        <img class="w-50" src="https://i.postimg.cc/MGrY0W0c/Fig1.png">
-
-
-                    </div>
-                    <!-- First paragraph. -->
-                    <p>The purpose of the project was to analyze how weather changes as you get closer to the equator.
-                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
-                        dataset on over 500 cities.</p>
-                    <!-- Second paragraph. -->
-                    <p>After assembling the dataset, we used Matplotliib to plot various aspects of the weather vs.
-                        latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This
-                        site provides the source data and visualizations created as part of the analysis, as well as
-                        explanations and descriptions of any trends and correlations witnessed.</p>
-                    <br>
-                </div>
-            </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-4">
-
-                    <h2>Visualizations</h2>
-                    <hr>
-                    <div class="row">
-
-                    <!-- City Latitude vs. Max Temp Image -->
-                    <a class="col-lg-6" href="/visualizations/temp.html">
-                        <img class="w-100" src="https://i.postimg.cc/MGrY0W0c/Fig1.png">
-                    </a>
-
-                    <!-- City Latitude vs. Humidity Image -->
-                    <a class="col-lg-6" href="/visualizations/humidity.html">
-                        <img class="w-100" src="https://i.postimg.cc/tTqH6N5R/Fig2.png">
-                    </a>
-
-                    <!-- City Latitude vs. Cloudiness Image -->
-                    
-                    <a class="col-lg-6" href="/visualizations/cloudiness.html">
-                        <img class="w-100" src="https://i.postimg.cc/3NW5SrVP/Fig3.png">
-                    </a>
-
-                    <!-- City Latitude vs. Wind Speed Image -->
-                    <a class="col-lg-6" href="/visualizations/wind.html">
-                        <img class="w-100" src="https://i.postimg.cc/vHgw5BWn/Fig4.png">
-                    </a>
-                    
-                </div>
-
-                </div>
+        <table class="table table-responsive">
+            <script src="/Resources/cities.htm"></script>
+            <tr>
+               <th></th>
+                <th></th> 
+            </tr>
+            </table>
         </div>
-    </div>
+        <div class="row">
+            
+                <div class="col-lg-12">
+
+                    <h1>Data</h1>
+                    <hr>
+                    
+                      </div>
+                      </div>    
+                    <h6>The following table includes all of the data used for plotting during this project.</h6>
+                    <hr>
+                
+                    
+                            
+
+      
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
